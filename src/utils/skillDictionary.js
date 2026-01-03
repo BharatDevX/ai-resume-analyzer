@@ -1,0 +1,16 @@
+export const SKILL_DICTIONARY = {
+  "c": ["c"],
+  "cpp": ["c++", "cpp"],
+  "python": ["python"],
+  "java": ["java"],
+  "javascript": ["js", "javascript"],
+  "react": ["react", "reactjs", "reactis"],
+  "nextjs": ["next", "nextjs", "next.js"],
+  "nodejs": ["node", "nodejs", "nodels"],
+  "express": ["express", "expres"],
+  "mongodb": ["mongodb", "mongo"],
+  "mysql": ["mysql"],
+  "docker": ["docker"],
+  "blockchain": ["blockchain"],
+  "web3": ["web3"],
+};

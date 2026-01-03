@@ -1,0 +1,109 @@
+CONTACT
+
+ sisaz097a219
+| aivanibharat74@-mailcom
+Linkin om/in/bharatlaiwan-
+4
+
+sb209204
+‘tub.com/BharatDewX
+
+EDUCATION
+
+2024 - 2028
+
+SECRC UNIVERSITY
+
++ Tech Computer Science &
+Engineering
+
+2022 - 2024
+
+(GYAN JYOTI VIDYALAYA,
+
++ Higher Secondary Education
+
+SKILLS
+
++ Languages: C+, Python, Javascript,
+Java
+
++ Framework & Tools Next,
+Reactis Nodels, Expres, Django,
+React-Native, jQuery, Flask
+
++ Databates: MongoDB, MySQL
+Docker
+
++ Specialzation Blockchain, web3
+
+CERTIFICATIONS
++ Finalist- Hacksagon ITV
+Gwalior 2025
+
+Blue Simple Professional CV Resume
+
+BHARAT LALWANI
+
+‘An Independent and self-motivated hardworking
+individual dedicated towards goals
+
+SELECTED PROJECTS
+
+- POWERED DISASTER MANAGEMENT SYSTEM - RES:
+‘© Developed a self-learning ML model to classify real user distress vs. fase
+alerts
+
+‘Integrated Gemini Al and SOS alerting system that sends ve location and
+contact etal to nearby helplines
+
+POWERED PHISING DETECTION SYSTEM
+4 Designed 2 phishing detection engine using dataset-based and API-
+asst leaming with Gemini Al
+
+‘Implemented URL dassifiaton, domain analysis, and real-time phishing
+predietion APs
+
+* Achioved high accuracy and built lightweight browser-inegrated
+varsing interface
+
+INTEGRATED AUDIO TOUR
+«+ Crested React Native mobile app
+vole and GPS
+
+* Used Gemini API and OpenAl API to generate dynamic, human-tke
+raaton and historia information for each tourist spot
+
+* Designed an itutve Resct Native interface ensuring smooth oss
+platform experiance ad minimal ateney during lve location updates
+
+3 personalized city tours using Al
+
+WORK EXPERIENCE
+
+BRAINWAVE MATRIX SOLUTION 2026
+FullMern Stack and Blockchain Developer
+
++ Bult a fully functional Al & Blockchalin integrated Voting DAP
+Using Reacts, Node fs, and Ethereum smart contracts ensuring
+‘wansparency and security
+
++ Implemented decentralized identity verification and real-time
+resultupdates.
+
++ Designed interactive dashboards for users and admins with
+smooth Webs integration
+
+‘Smarted Technologies 2028
+Fall Stack Developer With Al Integration
+
++ Developed an At powered React Native Audio Tour App or tourists
+sing Google APs ancl Gomi A
+
+‘+ Intograted teat.tme location wacking, voloe guided tours and
+oitine auctoplayoock
+
+‘+ Werked on speach synthesis, locationtbased wiggers, and
+responsive Ul fr ernanced UX
+
+Page 1of1
