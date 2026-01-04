@@ -1,4 +1,5 @@
-import { SKILL_DICTIONARY } from "./skillDictionary";
+// src/utils/skillNormalizer.js
+import { SKILL_WEIGHTS } from "./skillWeight";
 
 export function normalizeSkills(rawSkills = []) {
   const normalized = new Set();
@@ -6,8 +7,13 @@ export function normalizeSkills(rawSkills = []) {
   for (const skill of rawSkills) {
     const lower = skill.toLowerCase();
 
-    for (const [canonical, variants] of Object.entries(SKILL_DICTIONARY)) {
-      if (variants.some(v => lower.includes(v))) {
+    for (const canonical of Object.keys(SKILL_WEIGHTS)) {
+      // exact OR partial safe match
+      if (
+        lower === canonical ||
+        lower.includes(canonical) ||
+        canonical.includes(lower)
+      ) {
         normalized.add(canonical);
       }
     }
