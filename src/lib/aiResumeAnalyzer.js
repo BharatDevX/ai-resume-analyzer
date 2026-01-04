@@ -1,4 +1,4 @@
-import aiClient from "@/lib/aiClient";
+import aiClient from "./aiClient.js";
 
 function safeJSONParse(text) {
   try {

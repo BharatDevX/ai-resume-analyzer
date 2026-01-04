@@ -6,6 +6,7 @@ import { normalizeSkills } from "@/utils/skillNormalizer";
 import { matchResumeToJob } from "@/utils/resumeJobMatcher";
 import { semanticSimilarity } from "@/utils/semanticMatcher";
 import { buildExplanation } from "@/utils/explainMatcher";
+import { buildResumeImprovementPlan } from "@/utils/resumeImprover";
 
 export async function POST(req) {
   await connectDB();
@@ -49,7 +50,7 @@ export async function POST(req) {
     const finalScore =
       skillScore + semanticScore + experienceScore;
 
-    const explain = buildExplanation({
+    const explanation = buildExplanation({
       jobSkills,
       matchedSkills: match.matchedSkills,
       missingSkills: match.missingSkills,
@@ -58,6 +59,13 @@ export async function POST(req) {
       skillScore: Math.round(skillScore),
       semanticScore: Math.round(semanticScore),
       experienceScore,
+    });
+
+    const improvementPlan = buildResumeImprovementPlan({
+      jobSkills,
+      matchedSkills: match.matchedSkills,
+      missingSkills: match.missingSkills,
+      resumeText: resume.rawText || "",
     });
 
     return {
@@ -70,7 +78,8 @@ export async function POST(req) {
           : finalScore >= 55
           ? "POTENTIAL MATCH"
           : "WEAK MATCH",
-      ...explain,
+      ...explanation,
+      improvementPlan,
     };
   });
 
